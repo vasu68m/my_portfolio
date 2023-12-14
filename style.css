@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1b112b;
+  color: white;
+}
+
+/* navbar */
+.left {
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #26183d;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #a275f0;
+  font-size: 1.01rem;
+}
+
+.display_pic {
+  border-radius: 50%;
+  margin-top: 1px;
+}
+
+#profile_name {
+  margin-left: 0;
+}
+
+header {
+  box-shadow: 0 1px 20px 1px white;
+}
+
+/* first section */
+.first_section {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.left_section {
+  flex: 0.47;
+  height: 80vh;
+}
+
+.left_section img {
+  width: 600px;
+  height: 600px;
+  margin-left: 145px;
+  margin-top: 35px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px 1px aliceblue;
+}
+
+.mid_section {
+  flex: 0.06;
+}
+
+.right_section {
+  flex: 0.47;
+  height: 400px;
+  margin-top: 60px;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.right_section p {
+  margin: 30px 0px;
+}
+
+.right_section span {
+  color: #7441cc;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  color: beige;
+  font-weight: 600;
+  font-size: larger;
+  margin: 8px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #c5adf0;
+}
+
+hr {
+  /* height: 2px; */
+  color: #c5adf0;
+}
+
+/* education */
+.edu_section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60vw;
+  height: 60vh;
+  margin-top: 115px;
+  margin-bottom: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.institute h2 {
+  margin-top: 50px;
+}
+
+.institute a {
+  text-decoration: none;
+  color: darkkhaki;
+}
+
+.institute h3 {
+  margin-top: 2rem;
+}
+
+.institute span {
+  color: darkkhaki;
+}
+
+/* contacts */
+
+.contacts {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: #240841;
+  box-shadow: 5px 5px 10px 2px #5a466e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 5px 5px;
+}
+
+.label {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.info {
+  color: darkkhaki;
+}
+
+#git {
+  border-radius: 50%;
+  box-shadow: -1px 1px 2px 1px aliceblue;
+  position: absolute;
+  right: 15px;
+  bottom: 70px;
+}
+
+#repl {
+  box-shadow: -1px 1px 2px 1px aliceblue;
+  position: absolute;
+  bottom: 70px;
+  right: 70px;
+}
