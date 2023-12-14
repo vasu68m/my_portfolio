@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balendra: FrontEnd Dev</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          class="display_pic"
+          src="./img/balendra.jpg"
+          width="45px"
+          height="45px"
+          title="display picture"
+        />
+        <div class="left">
+          <div id="profile_name" title="profile name">Balendra Vyas</div>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/education.html">Education</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <!-- <li><a href="/">Projects</a></li>
+            <li><a href="/">About</a></li> -->
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first_section">
+        <div class="left_section">
+          <img
+            src="https://semidotinfotech.com/blog/wp-content/uploads/2022/12/best-web-development-tools-semidot-infotech.png"
+            alt="background image"
+          />
+        </div>
+        <div class="mid_section"></div>
+        <div class="right_section">
+          <p>I have been learning web-development since Aug 2022.</p>
+          Now i am looking forward for a position of
+          <span>Front-End Developer</span>. But as per the employment graph, I
+          have not got the opportunity yet to showcase & enhance my skill-set.
+          <p>
+            I perceived my grooming as a Developer I developed, enabled me to
+            progress further towards prosperous future.
+            <!-- <span>Front-End Developer</span>. -->
+          </p>
+          <h3>Skills:</h3>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+        </div>
+      </section>
+
+      <hr />
+      <p id="footer">
+        I appreciate you looking over my profile and hope we can work together.
+      </p>
+      <p class="copyright">
+        Copyright &#169; Balendra Vyas | All Rights Reserved
+      </p>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "HTML",
+          "CSS",
+          "JavsScript",
+          "React js",
+          "Node js",
+          "Express js",
+          "MongoDB",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
